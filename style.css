@@ -1,0 +1,141 @@
+/*    My Project no. #1    */
+
+
+
+* {
+     margin: 0;
+     padding: 0;
+     font-size: 14px;
+     font-family: Arial;
+ }
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+#container {
+    width: 300px;
+    background-color: #2A2A2A;
+    border-radius: 24px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+#heading {
+    color: #FF555F;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.input-section {
+    border: 1px solid white;
+    border-radius: 24px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.hour-section, .minute-section, .second-section {
+    width: 40px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.increment-section, .decrement-section {
+    background-color: #3827B1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2em;
+}
+
+.increment-section:hover {
+    background-color: #FF555F;
+}
+
+.decrement-section:hover {
+    background-color: #FF555F;
+}
+
+.input-section input {
+    margin: 5px 0;
+    text-align: center;
+    color: #2A2A2A;
+}
+
+.time-label {
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#remove-and-add {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#result {
+    background-color: white;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #FF555F;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 1.1em;
+}
+
+button:hover {
+    background-color: #FF7881;
+}
+
+#calculate {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* This part only for tutorial link*/
+
+#tutorial {
+    margin-left: auto;
+}
+
+#tutorial a {
+    text-decoration: none;
+    color: white;
+    background-color: #FF555F;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 1.1em;
+}
+
+
+
